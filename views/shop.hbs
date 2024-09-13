@@ -1,0 +1,52 @@
+{{!-- <div class="row">
+  <section class="main col-md-9">
+    <article>
+      <div class="row">
+        <div class="col-4">
+          <h2>{{item.title}}</h2> 
+          <img
+            src="{{item.featureImage}}"
+            alt="feature image"
+            style="width:100%"
+          />
+        </div>
+
+        <div class="col-8">
+            <br /><br />
+          <div class="row">
+            <div class="col-12">
+              
+                <div class="post-body">
+                    {{#safeHTML item.body}}{{/safeHTML}} 
+                </div>
+              
+              <br /><br />
+              
+              <strong>Price:</strong> ${{item.price}}<br />
+              <strong>Category:</strong> {{item.category}}<br />
+              <strong>Last Updated:</strong> {{item.postDate}}
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <aside class="col-md-3">
+    <br /><br />
+    <h4>Items</h4>
+    <ul class="list-group">
+      {{#each items}}
+        <a href="/item/{{this.id}}" class="list-group-item">{{this.title}}</a>
+      {{/each}}
+    </ul>
+
+    <h4>Categories</h4>
+    <ul class="list-group">
+      {{#each categories}}
+        <a href="/items?category={{this.id}}" class="list-group-item">{{this.name}}</a>
+      {{/each}}
+    </ul>
+  </aside>
+</div> --}}
